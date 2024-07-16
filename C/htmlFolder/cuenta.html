@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Cuenta</title>
+    <link rel="stylesheet" href="/cssFolder/another.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Cuenta</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="pedidos.html">Pedidos</a></li>
+            <li><a href="cuenta.html">Cuenta</a></li>
+            <li><a href="admin.html">Administrador</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="cuenta">
+            <h2>Gestión de Cuenta</h2>
+            <div id="saldo-disponible">
+                <h3>Saldo Disponible</h3>
+                <p id="saldo">$0.00</p>
+            </div>
+            <div id="pedidos-anteriores">
+                <h3>Pedidos Anteriores</h3>
+                <ul id="lista-pedidos"></ul>
+            </div>
+            <div id="configuracion-menu">
+                <h3>Configurar Menú</h3>
+                <form id="form-menu">
+                    <label for="menu-preferencias">Preferencias de Menú:</label>
+                    <textarea id="menu-preferencias" name="menu-preferencias" required></textarea>
+                    <button type="submit" class="btn-confirmar">Guardar Preferencias</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="/jsFolder/another.js"></script>
+</body>
+</html>
